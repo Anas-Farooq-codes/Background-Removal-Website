@@ -57,49 +57,49 @@ export const testimonialsData = [
         text: "I've been using bg.removal for nearly 6 months, I had a fantastic experience. The quality is top-notch. I recommend others to try this app.",
         author: "Donald Jackman",
         image: profile_img_2,
-        jobTitle:'UI Deginer'
+        jobTitle:'UI Designer'
     },
     {
         id: 3,
         text: "I've been using bg.removal for nearly 6 months, I had a fantastic experience. The quality is top-notch. I recommend others to try this app.",
         author: "Donald Jackman",
         image: profile_img_2,
-        jobTitle:'UI Deginer'
+        jobTitle:'UX Expert'
     },
     {
         id: 4,
         text: "I've been using bg.removal for nearly 6 months, I had a fantastic experience. The quality is top-notch. I recommend others to try this app.",
         author: "Donald Jackman",
         image: profile_img_2,
-        jobTitle:'UI Deginer'
+        jobTitle:'Backend developer'
     },
     {
         id: 5,
         text: "I've been using bg.removal for nearly 6 months, I had a fantastic experience. The quality is top-notch. I recommend others to try this app.",
         author: "Donald Jackman",
         image: profile_img_2,
-        jobTitle:'UI Deginer'
+        jobTitle:'Wordpress Developer'
     },
     {
         id: 6,
         text: "I've been using bg.removal for nearly 6 months, I had a fantastic experience. The quality is top-notch. I recommend others to try this app.",
-        author: "Donald Jackman",
+        author: "Graphic Designer",
         image: profile_img_2,
-        jobTitle:'UI Deginer'
+        jobTitle:'Product Manager'
     },
     {
         id: 7,
         text: "I've been using bg.removal for nearly 6 months, I had a fantastic experience. The quality is top-notch. I recommend others to try this app.",
         author: "Donald Jackman",
         image: profile_img_2,
-        jobTitle:'UI Deginer'
+        jobTitle:'Content Writer'
     },
     {
         id: 8,
         text: "I've been using bg.removal for nearly 6 months, I had a fantastic experience. The quality is top-notch. I recommend others to try this app.",
         author: "Donald Jackman",
         image: profile_img_2,
-        jobTitle:'UI Deginer'
+        jobTitle:'Logo Designer'
     },
 ];
 
