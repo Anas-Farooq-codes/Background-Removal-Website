@@ -44,7 +44,7 @@ const Bgslider = () => {
 
       {/* Title */}
       <h1 className='pb-12 sm:mb-5 text-center text-2xl md:text-3xl lg:text-4xl mt-20 font-semibold bg-gradient-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent'>
-        Remove Background with High <br /> Quality and Accuracy
+        Remove Background with High <br /> <span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'>Quality</span> and <span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'>Accuracy</span>
       </h1>
 
       <div className='relative w-full max-w-3xl overflow-hidden m-auto rounded-xl'>

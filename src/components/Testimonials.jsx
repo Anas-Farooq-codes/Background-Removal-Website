@@ -21,7 +21,7 @@ const Testimonials = () => {
   return (
     <div className='mx-5 sm:mx-28 '>
       {/* Title */}
-      <h1 className='mb-20 text-center text-2xl md:text-3xl lg:text-4xl py-5 font-semibold bg-gradient-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent'>
+      <h1 className='md:mb-20 text-center text-2xl md:text-3xl lg:text-4xl py-5 font-semibold bg-gradient-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent'>
         <span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'>Customer</span> Testimonials
       </h1>
 
@@ -46,7 +46,7 @@ const Testimonials = () => {
           }}
         >
           {testimonialsData.map((item) => (
-            <SwiperSlide key={item.id} className='bg-white rounded-xl p-6 drop-shadow-md hover:scale-105 transition-all cursor-default'>
+            <SwiperSlide key={item.id} className='bg-white rounded-xl my-6 p-6 drop-shadow-md hover:scale-105 transition-all cursor-default'>
               <p className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent text-4xl'>"</p>
               <p className='text-sm text-gray-500'>{item.text}</p>
               <div className='flex items-center gap-3 mt-5'>
