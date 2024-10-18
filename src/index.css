@@ -31,3 +31,10 @@ html{
     cursor: pointer;
 }
 
+/* Result Page  */
+
+.bg-layer {
+
+background-image: url(/bg_layer.png);
+}
+
