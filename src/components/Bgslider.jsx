@@ -36,14 +36,14 @@ const Bgslider = () => {
   };
 
     // Check if the activeTab exists in images, else default to 'people'
-    const currentImages = images[activeTab] || images['people'];
+    // const currentImages = images[activeTab] || images['people'];
 
   return (
-    <div className='pb-10 py-20 mx-2'>
+    <div className='pb-20 py-5 mx-2'>
       <TabComponent activeTab={activeTab} onTabChange={handleTabChange} />
 
       {/* Title */}
-      <h1 className='pb-12 sm:mb-20 text-center text-2xl md:text-3xl lg:text-4xl mt-4 font-semibold bg-gradient-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent'>
+      <h1 className='pb-12 sm:mb-5 text-center text-2xl md:text-3xl lg:text-4xl mt-20 font-semibold bg-gradient-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent'>
         Remove Background with High <br /> Quality and Accuracy
       </h1>
 

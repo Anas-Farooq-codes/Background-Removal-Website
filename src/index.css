@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    font-family: Outfit;
+}
+
+html{
+    overflow-x: hidden;
+}
 
 .slider {
     -webkit-appearance: none;
@@ -18,3 +28,4 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
