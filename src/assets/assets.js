@@ -132,6 +132,6 @@ export const plans = [
         id: 'Lifetime Plan',
         price: 1000,
         credits: 'Unlimited',
-        desc: 'Lifetime access with unlimited credits for users with ongoing background removal needs.'
+        desc: 'Lifetime access with unlimited credits for ongoing background removal.'
       }
 ];
