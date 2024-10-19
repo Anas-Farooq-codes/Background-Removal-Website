@@ -108,18 +108,30 @@ export const plans = [
       id: 'Basic',
       price: 10,
       credits: 100,
-      desc: 'Best for personal use.'
+      desc: 'Perfect for occasional users needing basic background removal.'
     },
     {
       id: 'Advanced',
       price: 50,
       credits: 500,
-      desc: 'Best for business use.'
+      desc: 'Great for regular users who need high-quality results.'
     },
+    {
+        id: 'Pro',
+        price: 100,
+        credits: 1000,
+        desc: 'Best for professionals looking for advanced features and flexibility.'
+      },
     {
       id: 'Business',
       price: 250,
       credits: 5000,
-      desc: 'Best for enterprise use.'
+      desc: 'Designed for small businesses with frequent background removal needs.'
     },
-  ]
+    {
+        id: 'Lifetime Plan',
+        price: 1000,
+        credits: 'Unlimited',
+        desc: 'Lifetime access with unlimited credits for users with ongoing background removal needs.'
+      }
+];
