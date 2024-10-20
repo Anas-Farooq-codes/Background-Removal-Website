@@ -8,6 +8,7 @@ import connectDB from "./configs/mongodb.js"
 
 const PORT = process.env.PORT || 4000
 const app = express()
+const cors = require("cors")
 await connectDB()
 
 // Initialize Middleware 
